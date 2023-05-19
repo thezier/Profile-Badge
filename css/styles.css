@@ -1,0 +1,86 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  font-family: Nunito, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  font-family: Jost, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+}
+
+.badge {
+  position: absolute;
+  width: 260px;
+  background-color: rgba(255, 255, 255, 0.92);
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(40, 39, 39);
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.5) 0 2px 45px -1px,
+    rgba(0, 0, 0, 0.3) 0 1px 5px -1px;
+}
+
+.badge img {
+  width: 160px;
+  border-radius: 80px;
+}
+
+.badge p {
+  padding-bottom: 10px;
+}
+
+.badge a {
+  display: inline-block;
+  color: rgb(165, 136, 83);
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.25em;
+  transition: 0.2s;
+}
+
+.badge a:hover {
+  color: rgb(210, 192, 156);
+  transition: 0.2s;
+}
+
+.photocred {
+  position: absolute;
+  padding: 7px 15px;
+  bottom: 0px;
+  right: 0px;
+}
+.photocred a {
+  color: #000;
+  font-family: Nunito, Verdana, sans-serif;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.photocred a:hover {
+  color: rgb(44, 43, 42);
+  transition: 0.2s;
+}
